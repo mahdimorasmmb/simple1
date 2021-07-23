@@ -59,7 +59,7 @@ function myfunc() {
     myli.textContent = strTodo;
     myli.appendChild(button);
     myUl.appendChild(myli);
-
+    //edit 
     button.addEventListener("click", (event) => {
         event.target.parentElement.style.display = "none";
     })
